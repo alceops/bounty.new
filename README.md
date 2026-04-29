@@ -9,6 +9,18 @@
 # bounty.new
 
 A modern bounty platform for developers and creators.
+
+## Public data products preview
+
+We are testing a public-data-only **OSS Bounty Radar** for teams that want cleaner bounty/reward queues without sorting through stale, token-paid, claim-ticket, or PR-submission noise.
+
+- Latest premium wedge: [robotics / FPGA / self-hosted DevOps shortlist](docs/data-products/oss-bounty-radar-premium-wedge-2026-04-29.md)
+- Free sample Markdown: [OSS Bounty Radar sample](docs/data-products/oss-bounty-radar-sample-2026-04-29.md)
+- Free sample CSV: [OSS Bounty Radar sample CSV](docs/data-products/oss-bounty-radar-sample-2026-04-29.csv)
+- Route/validation notes: [feedback packet](docs/data-products/oss-bounty-radar-feedback-ask-2026-04-29.md)
+
+Price hypothesis: `$49` one-off shortlist, `$149/mo` refresh, or `$100-$150` repo-specific queue cleanup. If useful, open an issue with `BUYER`, `BUILDER`, or `NO` plus one missing field/filter. No private data, no scraping around access controls, and no follow-up if not relevant.
+
 <!-- 
 ## What is bounty.new?
 

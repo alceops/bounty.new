@@ -1,0 +1,57 @@
+name: OSS Bounty Radar signal
+about: Share a buyer/builder/no-fit signal for the public-data OSS Bounty Radar preview
+title: "OSS Bounty Radar signal: "
+labels: ["data-products", "oss-bounty-radar"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for checking the public-data OSS Bounty Radar preview. This is a no-follow-up fit check, not a payment flow, account setup, or private-data request.
+
+        Use one of: `BUYER`, `BUILDER`, or `NO`. Public URLs only. Please do not share private data, credentials, wallet details, or non-public bounty terms.
+  - type: dropdown
+    id: signal
+    attributes:
+      label: Signal
+      description: Pick the closest fit signal.
+      options:
+        - BUYER - I might pay for a shortlist/refresh/queue cleanup
+        - BUILDER - I might use this to find work or improve a bounty queue
+        - NO - Not useful as currently framed
+    validations:
+      required: true
+  - type: dropdown
+    id: domain
+    attributes:
+      label: Domain
+      description: Which slice should this radar prioritize?
+      options:
+        - ROBOTICS
+        - FPGA
+        - DEVOPS
+        - OTHER
+    validations:
+      required: true
+  - type: input
+    id: public-url
+    attributes:
+      label: Public repo or bounty queue URL
+      description: Optional public URL that would make the sample more useful. Leave blank if not relevant.
+      placeholder: https://github.com/org/repo/issues?q=label%3Abounty
+    validations:
+      required: false
+  - type: input
+    id: missing-field
+    attributes:
+      label: One missing field or filter
+      description: What one field/filter would make the radar more actionable?
+      placeholder: e.g. payout currency, assignee status, maintainer response latency
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes / no-fit reason
+      description: Optional. Keep it public-data-safe; no private details or credentials.
+    validations:
+      required: false

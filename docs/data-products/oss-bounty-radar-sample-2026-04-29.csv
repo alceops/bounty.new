@@ -1,0 +1,4 @@
+rank,name,url,amount_evidence,status_check,decision,validation_caveat
+1,Coolify pgBackRest,https://github.com/coollabsio/coolify/issues/7423,"$1,000 visible",GET 200,retain_premium_proof_only,"Proof-only; avoid commenting due anti-AI-spam/reputation risk."
+2,LitePCIe ECP5/PCIe funding,https://github.com/enjoy-digital/litepcie/issues/20,"11,400 EUR visible",GET 200,retain_premium_proof,"Confirm current maintainer availability before quoting as active work."
+3,Neuronav ORB-SLAM3 Docker ROS2,https://github.com/neuronav-io/neuronav-slam-sdk/issues/1,"$500 USD prior body inspection",prior HEAD/API 200,retain_secondary,"Older timestamp; validate current availability before sale."

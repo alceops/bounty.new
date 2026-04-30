@@ -1,57 +1,49 @@
 name: OSS Bounty Radar signal
-about: Share a buyer/builder/no-fit signal for the public-data OSS Bounty Radar preview
-title: "OSS Bounty Radar signal: "
-labels: ["data-products", "oss-bounty-radar"]
+about: Tell Alce whether a public-data bounty/maintenance queue readout is worth buying, building from, or killing.
+title: "OSS Bounty Radar signal: <BUYER | BUILDER | NO>"
+labels: ["oss-bounty-radar", "buyer-signal"]
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for checking the public-data OSS Bounty Radar preview. This is a no-follow-up fit check, not a payment flow, account setup, or private-data request.
+        Use this for one clear signal on the public-data-only OSS Bounty Radar / repo queue cleanup product.
 
-        Use one of: `BUYER`, `BUILDER`, or `NO`. Public URLs only. Please do not share private data, credentials, wallet details, or non-public bounty terms.
+        Current examples:
+        - Coolify backup queue mini-sample: `docs/data-products/coolify-backup-queue-mini-sample-2026-04-30.md`
+        - Queue-cleanup SKU: `docs/data-products/oss-bounty-radar-queue-cleanup-sku-2026-04-29.md`
+
+        No private data, no scraping around access controls, and no follow-up if not relevant.
   - type: dropdown
     id: signal
     attributes:
       label: Signal
-      description: Pick the closest fit signal.
+      description: Pick the closest truthful signal.
       options:
-        - BUYER - I might pay for a shortlist/refresh/queue cleanup
-        - BUILDER - I might use this to find work or improve a bounty queue
-        - NO - Not useful as currently framed
-    validations:
-      required: true
-  - type: dropdown
-    id: domain
-    attributes:
-      label: Domain
-      description: Which slice should this radar prioritize?
-      options:
-        - ROBOTICS
-        - FPGA
-        - DEVOPS
-        - OTHER
+        - BUYER - I might pay $49-$150 for this or a repo-specific cleanup.
+        - BUILDER - I want to help build/supply this data.
+        - NO - not useful; here is why.
     validations:
       required: true
   - type: input
-    id: public-url
+    id: repo_or_queue
     attributes:
-      label: Public repo or bounty queue URL
-      description: Optional public URL that would make the sample more useful. Leave blank if not relevant.
-      placeholder: https://github.com/org/repo/issues?q=label%3Abounty
-    validations:
-      required: false
-  - type: input
-    id: missing-field
-    attributes:
-      label: One missing field or filter
-      description: What one field/filter would make the radar more actionable?
-      placeholder: e.g. payout currency, assignee status, maintainer response latency
+      label: Repo, queue, or niche
+      description: Public repo/issue queue/niche this signal applies to.
+      placeholder: "e.g. coollabsio/coolify backups, robotics bounties, FPGA issues"
     validations:
       required: true
   - type: textarea
-    id: notes
+    id: missing_fields
     attributes:
-      label: Notes / no-fit reason
-      description: Optional. Keep it public-data-safe; no private details or credentials.
+      label: Missing field, filter, or proof
+      description: What would make the readout useful enough to buy, share, or reject confidently?
+      placeholder: "Examples: maintainer activity, bounty freshness, duplicate-risk score, claimed PR status, estimated cleanup time."
+    validations:
+      required: true
+  - type: textarea
+    id: safe_contact
+    attributes:
+      label: Optional safe contact route
+      description: If you want a one-time reply, provide a public-safe route. Do not include private credentials or sensitive data.
     validations:
       required: false

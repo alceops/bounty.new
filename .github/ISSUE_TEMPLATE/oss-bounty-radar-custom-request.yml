@@ -8,13 +8,13 @@ body:
       value: |
         Use this when you want a repo-specific public-data readout rather than general feedback.
 
-        Current price hypothesis: `$49` for a lightweight shortlist, `$100-$150` for a repo-specific queue cleanup report, or `$149/mo` for a refresh. This form is a fit check, not payment collection. We will not ask for private data or scrape around access controls.
+        Current price hypothesis: `$49` for a lightweight shortlist, `$100-$150` for a repo-specific queue cleanup report, or `$149/mo` for a refresh. Recent sample: `docs/data-products/n8n-bug-backlog-mini-sample-2026-04-30.md`. This form is a fit check, not payment collection. We will not ask for private data or scrape around access controls.
   - type: input
     id: repo_or_niche
     attributes:
       label: Repo, org, or niche
       description: Public GitHub repo/org, bounty queue, or niche to analyze.
-      placeholder: "e.g. coollabsio/coolify backup issues, robotics bounties, FPGA repos"
+      placeholder: "e.g. n8n-io/n8n bug backlog, coollabsio/coolify backup issues, robotics bounties"
     validations:
       required: true
   - type: dropdown

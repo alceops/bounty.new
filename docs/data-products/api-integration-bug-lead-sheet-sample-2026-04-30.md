@@ -41,6 +41,10 @@ Fresh live-search expansion shipped 2026-04-30T23:23Z: [`api-integration-bug-lea
 - SHA-256: `9c379e1318d3ff6b8c67eda6d56b661a653d52956d2d2e8e56071ba750d870d5`.
 - Guardrail: rows are lead candidates and ecosystem pain signals, not buyer traction; each needs a fresh route/reputation preflight before contact.
 
+## Paid-output preview
+
+A one-row preview now shows the paid `$99` pack format for the highest-pain API integration row: [MasseurMatch API integration go-live blocker preview](./masseurmatch-api-integration-paid-preview-2026-04-30.md). It includes buyer-relevant evidence, collision/no-send risk, exact deliverable fields, and agency-ready row copy without posting into the third-party issue thread.
+
 ## Qualification rules before selling or routing
 
 1. Exclude security/vulnerability issues unless a separate security/compliance lane is approved.

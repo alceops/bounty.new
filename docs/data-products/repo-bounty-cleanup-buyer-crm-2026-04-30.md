@@ -27,11 +27,11 @@ The CSV includes source URLs, issue queue URLs, public note preflight fields, pr
 
 ## First safe conversion route
 
-A single tailored no-cost public note is permitted only after repo-specific duplicate-note and current-state preflight pass. The highest-signal current lead is `zio/zio` with 12 sampled bounty-like issues, 12 crowding/duplicate signals, 6 unclear payout signals, and 12 updated in the last 7 days.
+Live public-note preflight at 2026-04-30T17:22Z rejected the prepared `zio/zio` note: the target issue is open and bounty-labeled, but it has 47 comments with many `/attempt`/PR/status replies, so a paid cleanup offer in that implementation thread would be noisy and reputation-risky.
 
-Ready-to-send wording after green preflight:
-
-> Public-data note for `zio/zio`: I saw 12 open bounty-like issues with 12 duplicate/crowding signals, 6 unclear payout signals, and 12 updated in the last 7 days. I noticed `ZScheduler parks+unparks workers too frequently` (https://github.com/zio/zio/issues/9878) as one example. If useful, I can deliver a fixed-scope bounty queue cleanup + 7-day public-signal monitor for $100-$150: triage table, duplicate/ownership flags, payout/assignment clarification list, and next maintainer actions. Public GitHub data only; no repo access needed.
+- Preflight addendum: [`repo-bounty-cleanup-public-note-preflight-2026-04-30.md`](./repo-bounty-cleanup-public-note-preflight-2026-04-30.md)
+- Replacement route: owned inbound/custom-request distribution only until a maintainer-created meta/queue-cleanup thread appears.
+- Maintainer-facing ask: request a one-repo cleanup sample or CSV/details through the OSS Bounty Radar custom request/signal route. Fixed scope: `$50` diagnostic, `$100` cleanup, `$150` cleanup + 7-day public-signal monitor.
 
 ## Safety / ethics
 

@@ -14,6 +14,7 @@ body:
         - `NO`: the exact missing field/filter or reason this is not useful.
 
         Current examples:
+        - Directus bug backlog mini-sample: `docs/data-products/directus-bug-backlog-mini-sample-2026-04-30.md`
         - n8n bug backlog mini-sample: `docs/data-products/n8n-bug-backlog-mini-sample-2026-04-30.md`
         - Coolify backup queue mini-sample: `docs/data-products/coolify-backup-queue-mini-sample-2026-04-30.md`
         - Formbricks bug backlog replacement route: `docs/data-products/formbricks-bug-backlog-replacement-route-2026-04-30.md`
@@ -36,7 +37,7 @@ body:
     attributes:
       label: Repo, queue, or niche
       description: Public repo/issue queue/niche this signal applies to.
-      placeholder: "e.g. n8n-io/n8n bug backlog, coollabsio/coolify backups, robotics bounties"
+      placeholder: "e.g. directus/directus bug backlog, n8n-io/n8n bug backlog, coollabsio/coolify backups"
     validations:
       required: true
   - type: textarea

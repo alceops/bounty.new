@@ -29,9 +29,11 @@ The CSV includes source URLs, issue queue URLs, public note preflight fields, pr
 
 Live public-note preflight at 2026-04-30T17:22Z rejected the prepared `zio/zio` note: the target issue is open and bounty-labeled, but it has 47 comments with many `/attempt`/PR/status replies, so a paid cleanup offer in that implementation thread would be noisy and reputation-risky.
 
+The first owned inbound issue route was also parked at 2026-04-30T18:44Z after it attracted repeated contributor/code-claim comments rather than maintainer/founder buyer demand.
+
 - Preflight addendum: [`repo-bounty-cleanup-public-note-preflight-2026-04-30.md`](./repo-bounty-cleanup-public-note-preflight-2026-04-30.md)
-- Replacement route: owned inbound/custom-request distribution only until a maintainer-created meta/queue-cleanup thread appears.
-- Maintainer-facing ask: request a one-repo cleanup sample or CSV/details through the OSS Bounty Radar custom request/signal route. Fixed scope: `$50` diagnostic, `$100` cleanup, `$150` cleanup + 7-day public-signal monitor.
+- Replacement route: [`repo-bounty-cleanup-maintainer-inbox-2026-04-30.md`](./repo-bounty-cleanup-maintainer-inbox-2026-04-30.md)
+- Maintainer-facing ask: email `alce.ops@gmail.com` with subject `BOUNTY_CLEANUP maintainer request`, repo URL, role, pain, and preferred paid tier (`$50`, `$100`, or `$150`).
 
 ## Safety / ethics
 

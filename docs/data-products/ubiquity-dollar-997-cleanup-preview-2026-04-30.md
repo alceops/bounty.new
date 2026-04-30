@@ -27,6 +27,10 @@ The issue is high-value and urgent, but the visible thread has shifted from impl
 
 > Current status: this bounty is still open and priced at `$1200`, but it requires a core team member/admin to start. Several non-core contributor attempts were blocked by UbiquityOS. The latest public claim says an implementation exists with `25/25` tests passing and that PR #1036 was auto-closed. Maintainer next step: please confirm whether that work should be assigned/reopened for review, or state the required path for a valid contributor attempt so the thread stops accumulating blocked claims.
 
+## Route decision
+
+A paid/product note should **not** be posted into `ubiquity/ubiquity-dollar#997` while the thread is crowded and implementation-focused. See the live no-send decision: [Ubiquity route decision + replacement](ubiquity-route-decision-and-replacement-2026-04-30.md).
+
 ## Paid package this previews
 
 For `$150`, I can deliver this cleanup for the top 10 priced Ubiquity-style bounty threads: status summary, duplicate/claim-noise flags, maintainer-ready snippets, and a 7-day public-signal monitor. For `$100`, I can deliver only the cleanup table without the monitor.

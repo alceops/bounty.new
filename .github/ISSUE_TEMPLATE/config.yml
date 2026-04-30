@@ -1,5 +1,5 @@
 blank_issues_enabled: false
 contact_links:
-  - name: OSS Bounty Radar preview packet
-    url: https://github.com/alceops/bounty.new/blob/main/docs/data-products/oss-bounty-radar-premium-wedge-2026-04-29.md
-    about: Review the public-data sample before opening a BUYER/BUILDER/NO signal.
+  - name: Latest n8n queue-cleanup mini-sample
+    url: https://github.com/alceops/bounty.new/blob/main/docs/data-products/n8n-bug-backlog-mini-sample-2026-04-30.md
+    about: Review the latest public-data sample before opening a BUYER/BUILDER/NO signal.

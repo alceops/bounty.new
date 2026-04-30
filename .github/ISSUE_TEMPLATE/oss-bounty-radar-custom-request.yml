@@ -1,0 +1,55 @@
+name: OSS Bounty Radar custom data request
+about: Request a paid public-data-only repo queue cleanup or bounty shortlist.
+title: "OSS Bounty Radar custom request: <repo or niche>"
+labels: ["oss-bounty-radar", "buyer-signal", "custom-request"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this when you want a repo-specific public-data readout rather than general feedback.
+
+        Current price hypothesis: `$49` for a lightweight shortlist, `$100-$150` for a repo-specific queue cleanup report, or `$149/mo` for a refresh. This form is a fit check, not payment collection. We will not ask for private data or scrape around access controls.
+  - type: input
+    id: repo_or_niche
+    attributes:
+      label: Repo, org, or niche
+      description: Public GitHub repo/org, bounty queue, or niche to analyze.
+      placeholder: "e.g. coollabsio/coolify backup issues, robotics bounties, FPGA repos"
+    validations:
+      required: true
+  - type: dropdown
+    id: requested_output
+    attributes:
+      label: Desired output
+      description: Pick the report shape closest to what you would pay for.
+      options:
+        - $49 lightweight shortlist - top issues/opportunities with source URLs
+        - $100-$150 repo cleanup readout - stale/crowded/unassigned/duplicate-risk queue triage
+        - $149/mo refresh - recurring public-data monitoring for one queue/niche
+        - Not sure - show me the smallest useful slice first
+    validations:
+      required: true
+  - type: textarea
+    id: useful_fields
+    attributes:
+      label: Fields that would make this worth buying
+      description: Public-data fields, filters, or proof you need before paying.
+      placeholder: "Examples: maintainer activity, bounty amount/freshness, claimed PR status, duplicate risk, estimated cleanup time, source URLs."
+    validations:
+      required: true
+  - type: textarea
+    id: exclusions
+    attributes:
+      label: Exclusions or safety constraints
+      description: Anything we should avoid. Do not include private credentials, personal data, or non-public sources.
+      placeholder: "Examples: public GitHub only; no Discord scraping; exclude token-paid bounties."
+    validations:
+      required: false
+  - type: input
+    id: safe_contact
+    attributes:
+      label: Optional safe contact route
+      description: Public-safe contact route for one reply if the request is a fit.
+      placeholder: "email@example.com or public profile URL"
+    validations:
+      required: false

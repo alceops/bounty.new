@@ -31,6 +31,16 @@ Contact: [alce.ops@gmail.com](mailto:alce.ops@gmail.com?subject=API%20integratio
 | 9 | [amazeeio/amazee.ai#274](https://github.com/amazeeio/amazee.ai/issues/274) | Public API endpoint for model availability across regions | 2026-04-30 | 12 | Active API feature demand with multiple comments; useful signal for API/platform consultants. | Enhancement, not bug; buyer intent unknown. | Include in API-platform demand snapshot; do not pitch bugfix. |
 | 10 | [stripe/stripe-ruby#1860](https://github.com/stripe/stripe-ruby/issues/1860) | Stripe thin webhook event object compatibility | 2026-04-30 | 6 | Specific Stripe webhook SDK incompatibility; high relevance to integration shops supporting clients. | Vendor SDK issue; not a direct paid lead. | Use as ecosystem pain row to guide client-facing troubleshooting packages. |
 
+
+## Downloadable 25-row seed
+
+Fresh live-search expansion shipped 2026-04-30T23:23Z: [`api-integration-bug-lead-sheet-25-2026-04-30.csv`](./api-integration-bug-lead-sheet-25-2026-04-30.csv).
+
+- Rows: 25 public GitHub issue candidates across Stripe/payment, Twilio/webhook, OAuth/callback, Slack/API, and provider-integration pain.
+- Included columns: source issue URL, repo, title, integration tag, freshness date, comment count, candidate reason, risk/exclude note, and first-action suggestion.
+- SHA-256: `9c379e1318d3ff6b8c67eda6d56b661a653d52956d2d2e8e56071ba750d870d5`.
+- Guardrail: rows are lead candidates and ecosystem pain signals, not buyer traction; each needs a fresh route/reputation preflight before contact.
+
 ## Qualification rules before selling or routing
 
 1. Exclude security/vulnerability issues unless a separate security/compliance lane is approved.

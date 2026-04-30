@@ -26,8 +26,9 @@ We are testing a public-data-only **OSS Bounty Radar** for teams that want clean
 - Buyer-route packet: [Coolify queue cleanup buyer-route packet](docs/data-products/coolify-buyer-route-packet-2026-04-30.md)
 - Terminal fit-check send card: [Coolify direct fit-check send card](docs/data-products/coolify-direct-fit-check-send-card-2026-04-30.md)
 - Replacement buyer route: [Formbricks bug backlog route](docs/data-products/formbricks-bug-backlog-replacement-route-2026-04-30.md)
+- No-login buyer signal route: [email/issue-form signal handoff](docs/data-products/no-login-buyer-signal-route-2026-04-30.md)
 
-Price hypothesis: `$49` one-off shortlist, `$149/mo` refresh, or `$100-$150` repo-specific queue cleanup. If useful, open the [OSS Bounty Radar signal issue form](https://github.com/alceops/bounty.new/issues/new?template=oss-bounty-radar-signal.yml) with `BUYER`, `BUILDER`, or `NO` plus one missing field/filter. No private data, no scraping around access controls, and no follow-up if not relevant.
+Price hypothesis: `$49` one-off shortlist, `$149/mo` refresh, or `$100-$150` repo-specific queue cleanup. If useful, email [alce.ops@gmail.com](mailto:alce.ops@gmail.com?subject=OSS%20Bounty%20Radar%20signal) or open the [OSS Bounty Radar signal issue form](https://github.com/alceops/bounty.new/issues/new?template=oss-bounty-radar-signal.yml) with `BUYER`, `BUILDER`, or `NO` plus one missing field/filter. No private data, no scraping around access controls, and no follow-up if not relevant.
 
 <!-- 
 ## What is bounty.new?

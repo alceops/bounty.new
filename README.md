@@ -23,6 +23,7 @@ We are testing a public-data-only **OSS Bounty Radar** for teams that want clean
 - Fit-check execution packet: [manual/sender-ready route handoff](docs/data-products/oss-bounty-radar-fit-check-execution-packet-2026-04-29.md)
 - Latest route monitor/replacement: [Evil Martians passive monitor + corrected proof/route packet](docs/data-products/oss-bounty-radar-route-monitor-replacement-2026-04-29.md)
 - Repo-specific mini-sample: [Coolify backup queue cleanup readout](docs/data-products/coolify-backup-queue-mini-sample-2026-04-30.md)
+- Buyer-route packet: [Coolify queue cleanup buyer-route packet](docs/data-products/coolify-buyer-route-packet-2026-04-30.md)
 
 Price hypothesis: `$49` one-off shortlist, `$149/mo` refresh, or `$100-$150` repo-specific queue cleanup. If useful, open the [OSS Bounty Radar signal issue form](https://github.com/alceops/bounty.new/issues/new?template=oss-bounty-radar-signal.yml) with `BUYER`, `BUILDER`, or `NO` plus one missing field/filter. No private data, no scraping around access controls, and no follow-up if not relevant.
 

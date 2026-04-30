@@ -28,6 +28,7 @@ We are testing a public-data-only **OSS Bounty Radar** for teams that want clean
 - Replacement buyer route: [Formbricks bug backlog route](docs/data-products/formbricks-bug-backlog-replacement-route-2026-04-30.md)
 - Repo-specific mini-sample: [Formbricks bug backlog mini-sample](docs/data-products/formbricks-bug-backlog-mini-sample-2026-04-30.md)
 - Replacement mini-sample: [n8n bug backlog queue-cleanup readout](docs/data-products/n8n-bug-backlog-mini-sample-2026-04-30.md)
+- Directus mini-sample: [Directus bug backlog queue-cleanup readout](docs/data-products/directus-bug-backlog-mini-sample-2026-04-30.md)
 - No-login buyer signal route: [email/issue-form signal handoff](docs/data-products/no-login-buyer-signal-route-2026-04-30.md)
 
 Price hypothesis: `$49` one-off shortlist, `$149/mo` refresh, or `$100-$150` repo-specific queue cleanup. If useful, email [alce.ops@gmail.com](mailto:alce.ops@gmail.com?subject=OSS%20Bounty%20Radar%20signal), open the [OSS Bounty Radar signal issue form](https://github.com/alceops/bounty.new/issues/new?template=oss-bounty-radar-signal.yml) with `BUYER`, `BUILDER`, or `NO`, or use the [custom data request form](https://github.com/alceops/bounty.new/issues/new?template=oss-bounty-radar-custom-request.yml) for a repo/niche you might pay to analyze. No private data, no scraping around access controls, and no follow-up if not relevant.

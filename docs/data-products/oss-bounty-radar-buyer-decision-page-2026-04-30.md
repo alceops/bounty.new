@@ -19,14 +19,18 @@ No private data, no credentials, no scraping around access controls, no security
 - [Formbricks bug backlog mini-sample](formbricks-bug-backlog-mini-sample-2026-04-30.md) — product analytics/support backlog slice with unsafe security issue excluded.
 - [Coolify backup queue cleanup sample](coolify-backup-queue-mini-sample-2026-04-30.md) — focused self-hosted DevOps repo queue readout.
 
+## Narrow buyer segment now under test
+
+The broad decision page has not produced a buyer/custom-request issue yet. The next cash test is narrower: [automation agency backlog triage buyer packet](automation-agency-backlog-triage-buyer-packet-2026-04-30.md), aimed at agencies, workflow consultants, and plugin builders who can use n8n/Directus/Formbricks/Coolify public backlog intelligence for paid scoping or retainer sourcing.
+
 ## Buy/fit-check route
 
 If this would save you time, use one of these low-friction routes:
 
 1. Open a [custom data request](https://github.com/alceops/bounty.new/issues/new?template=oss-bounty-radar-custom-request.yml) with the repo/niche and the output you might pay for.
 2. Open a quick [BUYER / BUILDER / NO signal](https://github.com/alceops/bounty.new/issues/new?template=oss-bounty-radar-signal.yml) if you only want to validate or reject the idea.
-3. Email [alce.ops@gmail.com](mailto:alce.ops@gmail.com?subject=OSS%20Bounty%20Radar%20buyer%20fit%20check) with a public repo URL and the price tier that would be acceptable.
+3. Email [alce.ops@gmail.com](mailto:alce.ops@gmail.com?subject=Automation%20agency%20OSS%20Bounty%20Radar%20fit%20check) with a public repo URL and the price tier that would be acceptable.
 
 ## Kill conditions
 
-This route should be replaced, not passively watched, if there are still zero buyer/custom-request issues and no email reply after the next distribution check. The next replacement should either target a named buyer segment with a narrower sample or attach a paid-scope deliverable to an already-active direct-service conversation.
+If the automation-agency packet still produces zero buyer/custom-request issues and no email reply after the next distribution check, stop iterating GitHub-only passive pages. Replace it with either a direct one-touch safe outreach to a verified agency route or a different paid data product tied to an active buyer conversation.

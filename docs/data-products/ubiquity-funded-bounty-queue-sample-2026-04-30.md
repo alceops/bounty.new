@@ -32,6 +32,10 @@
 - maintainer-ready close/update/reprice snippets for stale or ambiguous bounty threads;
 - optional 7-day public monitor for new claims, PR refs, and payout/status changes.
 
+## Cleanup-preview proof
+
+- [`ubiquity-dollar#997 cleanup preview`](./ubiquity-dollar-997-cleanup-preview-2026-04-30.md) shows the paid output shape for one `$1200` urgent bounty thread: status summary, contributor-noise flag, maintainer next action, and ready-to-post snippet.
+
 ## Narrow conversion route
 
 This sample is meant for maintainers/founders/operators of already-funded OSS bounty queues. If that is you, email [alce.ops@gmail.com](mailto:alce.ops@gmail.com?subject=UBIQUITY_STYLE%20bounty%20queue%20cleanup) with: repo URL, role, whether the useful output is `$100` cleanup table or `$150` cleanup + 7-day monitor, and any public label/search URL to prioritize.

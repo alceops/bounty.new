@@ -18,10 +18,16 @@
 | `adobe-type-tools/afdko` | `renovate.json` matched `config:base` and `matchPackagePatterns` public code search | https://github.com/adobe-type-tools/afdko/blob/cd16e5e5b3e3e88ca4fe4ffd3629c954b117b74f/renovate.json | Organization-backed repo; simple deprecation cleanup can be a gateway proof for broader dependency hygiene work. | Offer a one-file migration diff and dashboard note, explicitly no secrets/access required. |
 | `android/health-samples` | `renovate.json` matched `config:base` public code search | https://github.com/android/health-samples/blob/8613828d6309c00bec8a7704cced9fc445bd018f/renovate.json | Large ecosystem sample repo; a clean config modernization can be useful even where paid work is not likely. | Use as a credibility sample / exclude from direct paid outreach unless a maintainer explicitly asks. |
 
-## What the paid CSV adds
+## Downloadable 25-row seed CSV
 
-- 25-100 rows deduped by organization and current default branch.
-- Evidence columns: matched deprecated key, file URL, repository activity snapshot, issue/dashboard URL if present, and existing competing PR check.
+- Seed file: [`renovate-deprecation-lead-sheet-25-2026-04-30.csv`](./renovate-deprecation-lead-sheet-25-2026-04-30.csv).
+- Evidence columns: matched deprecated key, file URL, stars, last pushed date, buyer-fit note, risk flag, recommended channel, and first-action copy.
+- Safety use: treat rows as lead candidates, not buyer traction. Large corporate/high-star rows are marked for cautious proof-only use; low-fit rows should be filtered before any paid buyer delivery.
+
+## What a paid CSV adds
+
+- 25-100 rows rechecked immediately before delivery, deduped by organization and current default branch.
+- Extra evidence columns: issue/dashboard URL if present, existing competing PR check, repository policy notes, and maintainer-channel confidence.
 - Risk columns: corporate/no-solicitation flag, low-fit public-sector/large-platform flag, security/private-data exclusion, and recommended channel (`public PR proof`, `owned sample only`, or `do not contact`).
 - Buyer action copy: one sentence the agency can adapt without spam or false claims.
 

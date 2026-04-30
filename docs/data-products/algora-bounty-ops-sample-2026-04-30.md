@@ -39,6 +39,10 @@ Do not post sales notes into these bounty issues without a fresh reputation pref
 - email `alce.ops@gmail.com` with subject `BOUNTY_SPONSOR ops cleanup`, repo URL, role, and `$100` or `$150` tier;
 - or use the custom request issue form in this repo.
 
+## Named paid-output preview
+
+To make the cash offer concrete, the current top row now has a one-repo preview: [`keephq/keep#2112` SNMP bounty sponsor cleanup](keephq-snmp-sponsor-cleanup-preview-2026-04-30.md). It shows the exact public-data fields a `$100` sponsor cleanup table would include: bounty amount, thread-noise count, open-PR collision map, maintainer risk, recommended sponsor action, and a ready-to-post clarification snippet.
+
 ## Kill condition
 
-If this sponsor-ops sample gets zero qualified maintainer/sponsor signal after one safe owned-route/distribution attempt, park the bounty-cleanup SKU and switch Data Products to a different active-buyer public-data product rather than creating another passive monitor.
+If this sponsor-ops sample plus the named `keephq/keep#2112` paid-output preview get zero qualified maintainer/sponsor signal after one monitor window, park the bounty-cleanup SKU and switch Data Products to a different active-buyer public-data product rather than creating another passive monitor.

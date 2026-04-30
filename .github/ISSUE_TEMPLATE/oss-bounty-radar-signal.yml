@@ -8,6 +8,11 @@ body:
       value: |
         Use this for one clear signal on the public-data-only OSS Bounty Radar / repo queue cleanup product.
 
+        This is **not** a code bounty, PR request, or implementation task. Do not post "working on a fix" or generic build offers here; those are not buyer/maintainer signals and will be closed as invalid. Useful replies are only:
+        - `BUYER`: a public repo/queue plus what would make a $49-$150 readout worth buying.
+        - `BUILDER`: a concrete public-data source you can supply.
+        - `NO`: the exact missing field/filter or reason this is not useful.
+
         Current examples:
         - Coolify backup queue mini-sample: `docs/data-products/coolify-backup-queue-mini-sample-2026-04-30.md`
         - Formbricks bug backlog replacement route: `docs/data-products/formbricks-bug-backlog-replacement-route-2026-04-30.md`
@@ -17,8 +22,8 @@ body:
   - type: dropdown
     id: signal
     attributes:
-      label: Signal
-      description: Pick the closest truthful signal.
+      label: Signal (not a code bounty / PR task)
+      description: Pick the closest truthful signal. Generic "working on a fix" replies are invalid here.
       options:
         - BUYER - I might pay $49-$150 for this or a repo-specific cleanup.
         - BUILDER - I want to help build/supply this data.

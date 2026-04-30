@@ -1,5 +1,5 @@
 blank_issues_enabled: false
 contact_links:
-  - name: Latest Directus queue-cleanup mini-sample
-    url: https://github.com/alceops/bounty.new/blob/main/docs/data-products/directus-bug-backlog-mini-sample-2026-04-30.md
-    about: Review the latest public-data sample before opening a BUYER/BUILDER/NO signal or paid custom request.
+  - name: OSS Bounty Radar buyer decision page
+    url: https://github.com/alceops/bounty.new/blob/main/docs/data-products/oss-bounty-radar-buyer-decision-page-2026-04-30.md
+    about: Compare packages, proof samples, and fit-check routes before opening a BUYER/BUILDER/NO signal or paid custom request.

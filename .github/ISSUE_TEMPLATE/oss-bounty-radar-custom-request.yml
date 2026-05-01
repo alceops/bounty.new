@@ -8,7 +8,7 @@ body:
       value: |
         Use this when you want a repo-specific public-data readout rather than general feedback.
 
-        Current price hypothesis: `$49` for a lightweight shortlist, `$100-$150` for a repo-specific queue cleanup report, or `$149/mo` for a refresh. Recent samples: `docs/data-products/directus-bug-backlog-mini-sample-2026-04-30.md` and `docs/data-products/n8n-bug-backlog-mini-sample-2026-04-30.md`. This form is a fit check, not payment collection. We will not ask for private data or scrape around access controls.
+        Current price hypothesis: `$99` for a 25-row active bounty queue cleanup report or `$150` for one sponsor/org custom report with next-action copy. Current sample: `docs/data-products/active-bounty-queue-sponsor-ops-sample-2026-05-01.md` plus CSV seed. This form is a fit check, not payment collection. We will not ask for private data or scrape around access controls.
   - type: input
     id: repo_or_niche
     attributes:

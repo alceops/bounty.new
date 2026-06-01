@@ -1,19 +1,33 @@
 name: OSS Bounty Radar custom data request
-about: Request a paid public-data-only repo queue cleanup or bounty shortlist.
+about: Maintainers/founders/operators can request a paid public-data-only repo queue cleanup or bounty shortlist.
 title: "OSS Bounty Radar custom request: <repo or niche>"
 labels: ["oss-bounty-radar", "buyer-signal", "custom-request"]
 body:
   - type: markdown
     attributes:
       value: |
-        Use this when you want a repo-specific public-data readout rather than general feedback.
+        Use this only if you maintain, fund, or operate a public repo/queue and want a repo-specific public-data readout rather than general feedback.
 
-        Current price hypothesis: `$99` for a 25-row active bounty queue cleanup report or `$150` for one sponsor/org custom report with next-action copy. Current sample: `docs/data-products/active-bounty-queue-sponsor-ops-sample-2026-05-01.md` plus CSV seed. This form is a fit check, not payment collection. We will not ask for private data or scrape around access controls.
+        This is **not** a code bounty, PR request, implementation task, or place to claim work. Contributor "working on this" replies are not qualified demand and will be closed as invalid.
+
+        Current price hypothesis: `$50` for a diagnostic, `$100` for a repo cleanup table, or `$150` for a cleanup plus 7-day public-signal monitor. Current sample: `docs/data-products/active-bounty-queue-sponsor-ops-sample-2026-05-01.md` plus CSV seed. This form is a fit check, not payment collection. We will not ask for private data or scrape around access controls.
+  - type: dropdown
+    id: requester_role
+    attributes:
+      label: Your role
+      description: This route is for maintainers/founders/operators or agency leads with a queue they operate. Contributor code claims are invalid here.
+      options:
+        - Maintainer
+        - Founder
+        - Operator
+        - Agency lead
+    validations:
+      required: true
   - type: input
     id: repo_or_niche
     attributes:
       label: Repo, org, or niche
-      description: Public GitHub repo/org, bounty queue, or niche to analyze.
+      description: Public GitHub repo/org, bounty queue, or niche you maintain, fund, operate, or would pay to analyze.
       placeholder: "e.g. directus/directus bug backlog, n8n-io/n8n bug backlog, coollabsio/coolify backup issues"
     validations:
       required: true
@@ -23,18 +37,18 @@ body:
       label: Desired output
       description: Pick the report shape closest to what you would pay for.
       options:
-        - $49 lightweight shortlist - top issues/opportunities with source URLs
-        - $100-$150 repo cleanup readout - stale/crowded/unassigned/duplicate-risk queue triage
-        - $149/mo refresh - recurring public-data monitoring for one queue/niche
+        - $50 diagnostic - public issue/label snapshot with cleanup risks
+        - $100 cleanup table - stale/crowded/unassigned/duplicate-risk queue triage
+        - $150 cleanup + 7-day public-signal monitor
         - Not sure - show me the smallest useful slice first
     validations:
       required: true
   - type: textarea
-    id: useful_fields
+    id: painful_queue_state
     attributes:
-      label: Fields that would make this worth buying
-      description: Public-data fields, filters, or proof you need before paying.
-      placeholder: "Examples: maintainer activity, bounty amount/freshness, claimed PR status, duplicate risk, estimated cleanup time, source URLs."
+      label: What is painful
+      description: Name the queue problem this should clean up.
+      placeholder: "Examples: duplicate attempts, assignment ambiguity, payout/status clarity, stale bounty labels, noisy contributor queue, claimed PR status."
     validations:
       required: true
   - type: textarea
